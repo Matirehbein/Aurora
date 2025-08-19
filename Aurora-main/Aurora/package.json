@@ -1,0 +1,12 @@
+{
+    "name": "aurora",
+    "version": "1.0.0",
+    "scripts": {
+        "dev": "serve ."
+    },
+    "description": "",
+    "main": "index.js",
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+}
