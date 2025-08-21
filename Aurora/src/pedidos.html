@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aurora | Login</title>
+    <title>Pedidos</title>
     <link rel="stylesheet" href="../Public/Css/style.css">
+
 </head>
 <body>
     <header>
@@ -15,10 +16,10 @@
             <li><a href="/Aurora/src/colecciones.html">Colecciones</a></li>
             <li><a href="/Aurora/src/productos.html">Productos</a></li>
             <li><a href="/Aurora/src/ofertas.html">Ofertas</a></li>
-            </ul>
-
             <div class="header-actions">
                 <div class="header-actions">
+                    <!-- Carrito con foto -->
+                    
                     <div>
                         <a href="/Aurora/src/main_menu.html" class="icon-btn" aria-label="back">
                             <img src="/Aurora/Public/imagenes/LeftArrow.png" alt="back">
@@ -26,58 +27,48 @@
                     </div>
                 </div>
             </div>
-        </div>
     </div>
+            </ul>
 
-</header>
-
-<main>
-    <div id="inventario" class="section">
-    <h2>Inventario de Productos</h2>
-    <p>A continuación se muestra la lista de productos en inventario:</p>
-
+            
+    </header>
+    <main>
+        <div id="pedido" class="section">
+            <h2>Sección de Pedido</h2>
+            <p>A continuación se muestra una lista de pedidos:</p>
         <table>
-        <thead>
-            <tr>
-            <th>Código</th>
-            <th>Producto</th>
-            <th>Categoría</th>
-            <th>Stock</th>
-            <th>Precio</th>
-            <th>Estado</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-            <td>PRD001</td>
-            <td>Blusa Floral</td>
-            <td>Ropa Mujer</td>
-            <td>25</td>
-            <td>$15.990</td>
-            <td>Disponible</td>
-            </tr>
-            <tr>
-            <td>PRD002</td>
-            <td>Jeans Skinny</td>
-            <td>Ropa Mujer</td>
-            <td>0</td>
-            <td>$29.990</td>
-            <td>Agotado</td>
-            </tr>
-            <tr>
-            <td>PRD003</td>
-            <td>Chaqueta Denim</td>
-            <td>Ropa Mujer</td>
-            <td>12</td>
-            <td>$39.990</td>
-            <td>Disponible</td>
-            </tr>
-        </tbody>
-        </table>
-    </div>
-</main>
-    <!-- Footer -->
-
+            <thead>
+                <tr>
+                    <th># Pedido</th>
+                    <th>Cliente</th>
+                    <th>Fecha</th>
+                    <th>Estado</th>
+                </tr>
+            </thead>
+                <tbody>
+                    <tr>
+                        <td>001</td>
+                        <td>Juan Pérez</td>
+                        <td>2025-08-19</td>
+                        <td>En proceso</td>
+                    </tr>
+                    <tr>
+                        <td>002</td>
+                        <td>María García</td>
+                        <td>2025-08-18</td>
+                        <td>Completado</td>
+                    </tr>
+                    <tr>
+                        <td>003</td>
+                        <td>Carlos López</td>
+                        <td>2025-08-17</td>
+                        <td>Pendiente</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </main>
+        <!-- Footer -->
     <footer class="footer">
         <div class="container">
         <nav class="footer-top">
